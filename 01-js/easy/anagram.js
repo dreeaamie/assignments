@@ -9,8 +9,8 @@ function isAnagram(str1, str2) {
     return false;}
 
 
-const temp1=str1.split('').sort();
-const temp2=str2.split('').sort();
+const temp1=str1.sort();
+const temp2=str2.sort();
 
     for(let i=0;i<temp1.length;i++)
   {
